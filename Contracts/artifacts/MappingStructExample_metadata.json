@@ -17,7 +17,12 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numPayments",
 						"type": "uint256"
 					}
 				],
@@ -42,6 +47,26 @@
 				"name": "sendMoney",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawAllMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawAllMoneyToMe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -87,10 +112,10 @@
 	},
 	"sources": {
 		"Contracts/MappingStructExample.sol": {
-			"keccak256": "0x66b81d8ed0442861774d0a92d5c73e72d3129e1f139cbf465e16a3e446f565a1",
+			"keccak256": "0x789c4cb5c67cf77687de54b5dde74f007c7f54cf521abc1d8d21ec62dc626c4f",
 			"urls": [
-				"bzz-raw://0804c8fd7397bc08777bfae0e24397ec17da62d6dd343e530ae6bb478bc7c6e4",
-				"dweb:/ipfs/QmNvH9s4TtiynvL311BbYPKYnnUXZGfhv6QFwkTgMwRefe"
+				"bzz-raw://185f1fc437f11d8a9dd1ff93bd025652086034827fedd30a7aded6ed3bb8a20d",
+				"dweb:/ipfs/QmZJRLQEgGjuvba63JieoM1ozdmQdGz6mQ2i7e8hWsYBbT"
 			]
 		}
 	},
