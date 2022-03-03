@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract EtherGame",
+						"name": "_etherGame",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Security&Hacking/SelfDestruct.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Security&Hacking/SelfDestruct.sol": {
+			"keccak256": "0x7a152d1b9d792a777ef501c581e030bd9c5a1658b6ba876d8732147e57e4985e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://27b1aea5fdd57b8c07b15bdb266bae49d6640567c8adac4788ffb260e33535d4",
+				"dweb:/ipfs/Qmc6VC7fA213nHGxNQBKfDUxELwCzkoA6esVQh6tG6X9Z2"
+			]
+		}
+	},
+	"version": 1
+}

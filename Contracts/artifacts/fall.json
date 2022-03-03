@@ -1,0 +1,64 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603b80601d6000396000f3fe608060405200fea265627a7a72315820bd951b51813bf0de843f714a2f0bbae549a3ea94c95c2eeffdc98dcbaf6de02064736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3B DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xBD SWAP6 SHL MLOAD DUP2 EXTCODESIZE CREATE 0xDE DUP5 EXTCODEHASH PUSH18 0x4A2F0BBAE549A3EA94C95C2EEFFDC98DCBAF PUSH14 0xE02064736F6C6343000511003200 ",
+			"sourceMap": "26:398:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:398:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "608060405200fea265627a7a72315820bd951b51813bf0de843f714a2f0bbae549a3ea94c95c2eeffdc98dcbaf6de02064736f6c63430005110032",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH6 0x627A7A723158 KECCAK256 0xBD SWAP6 SHL MLOAD DUP2 EXTCODESIZE CREATE 0xDE DUP5 EXTCODEHASH PUSH18 0x4A2F0BBAE549A3EA94C95C2EEFFDC98DCBAF PUSH14 0xE02064736F6C6343000511003200 ",
+			"sourceMap": "26:398:0:-;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "11800",
+				"executionCost": "66",
+				"totalCost": "11866"
+			},
+			"external": {
+				"": "18"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"payable": true,
+			"stateMutability": "payable",
+			"type": "fallback"
+		}
+	]
+}
