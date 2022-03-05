@@ -14,6 +14,14 @@ contract FunctionExample{
         owner = msg.sender;
     }
 
+    //The pure functions do not read or modify the state variables, which returns the values 
+    //only using the parameters passed to the function or local variables present in it.
+    // basically not reading or modifiying any state
+    //view and pure dont need to mine in blockchain
+    function convertWeiToEther(uint _amountInWei) public pure returns(uint){
+        return _amountInWei/1 ether;
+    }
+
     function destroySmartContract() public{
         require(msg.sender==owner, "You are not the owner");
         selfdestruct(payable(owner));

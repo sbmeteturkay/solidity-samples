@@ -34,6 +34,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amountInWei",
+						"type": "uint256"
+					}
+				],
+				"name": "convertWeiToEther",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "destroySmartContract",
 				"outputs": [],
@@ -111,11 +130,11 @@
 	},
 	"sources": {
 		"Contracts/FunctionExample.sol": {
-			"keccak256": "0xde496bd6e305839f507a50ce38eb0b317b134965f026bbd097a9393a6b00c43d",
+			"keccak256": "0xe3a341a48686de72e3a8ec3e8836fa781b53c8f9d3602b825e57c5f5a8e8b96e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6bd30b1d5450d656e52aa1aed7ec9c70d923480df1cb0ce3030c92fd5c510467",
-				"dweb:/ipfs/QmRU3wwBVXxNnFzHaspJ2qLq2DJRPLJ9STrscgMxTnUcXh"
+				"bzz-raw://d3478d9eaac16188322a23fe59c39f9912a702fb8be9217f341911cbeed17cef",
+				"dweb:/ipfs/QmduoLvBC1EfrMcdFoqgf1p8hxUJ3YDVjQwqAyLV69qiBD"
 			]
 		}
 	},
