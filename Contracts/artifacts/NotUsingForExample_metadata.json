@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "append",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_old",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_new",
+						"type": "uint256"
+					}
+				],
+				"name": "replace",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Libraries.sol": "NotUsingForExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Libraries.sol": {
+			"keccak256": "0xcaf9c8ce216da935d684668e0087a0e810c0cfdfc84c7bc2805d6c549861323d",
+			"urls": [
+				"bzz-raw://f040758b207736fab8b66a662c2d308256a830face54bc67ca3679e2baec02b5",
+				"dweb:/ipfs/QmbQuhwCZrhbi7xh1vAf8ipoAA2Ne4u1JtrKPvn3B9V4vY"
+			]
+		},
+		"https://github.com/sbmeteturkay/solidity-samples/blob/main/Contracts/ModifierImport.sol": {
+			"keccak256": "0x00eedd5fcda2ce5e1b5849c1918997526010cd604bb4797e950ee6f20e009a3c",
+			"urls": [
+				"bzz-raw://bbbc66109ce47eeacb3a63ea3485b22460eff1dd7ba26543b83cf323e9531799",
+				"dweb:/ipfs/QmXujGCEn2rbFTzdS2XEqp9w8jqxun3q1EnppahTsFNDE5"
+			]
+		}
+	},
+	"version": 1
+}
