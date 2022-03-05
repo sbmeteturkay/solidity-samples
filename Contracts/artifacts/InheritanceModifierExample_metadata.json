@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Modifier.sol": "InheritanceModifierExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Modifier.sol": {
+			"keccak256": "0xe343cd6b6e05f668740e601a673bb8cfd1dece1fb7a03a012aaf07d56f427bf2",
+			"urls": [
+				"bzz-raw://bd1bf1ad3facb92c6d2facf624b4547bb3d48b7564dec67efc8e891ea4378127",
+				"dweb:/ipfs/QmPzoSyTCT7FEmxVRDuiFgJK21FzLjiLAStrfhnKFWer4f"
+			]
+		},
+		"Contracts/ModifierImport.sol": {
+			"keccak256": "0xddbfe067be447e406325d56839c6597387710108b2e656180c00ee4628a7f49c",
+			"urls": [
+				"bzz-raw://52e2b979079dd163547b4a934f8c0d2a4014baa440660770946effef19637777",
+				"dweb:/ipfs/QmRgBJixc9h74VZLPQfBysMvrj9qmvSJKwWTvB5eSRacAz"
+			]
+		}
+	},
+	"version": 1
+}

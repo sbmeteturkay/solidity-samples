@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Modifier.sol": "overrideOwned"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Modifier.sol": {
+			"keccak256": "0xf8742030950b314b153af506a4f8511d5e3f008cc748588db7ad1aadf5f6bff7",
+			"urls": [
+				"bzz-raw://e5bdb701e98eca817614ec0a2cd060597291fd8490b61f8cba25ea8613452f18",
+				"dweb:/ipfs/QmVju31xgJm3CZnNMn5C3KSYAVY7NjNKWzx5tD7WLMLfG6"
+			]
+		},
+		"Contracts/ModifierImport.sol": {
+			"keccak256": "0xddbfe067be447e406325d56839c6597387710108b2e656180c00ee4628a7f49c",
+			"urls": [
+				"bzz-raw://52e2b979079dd163547b4a934f8c0d2a4014baa440660770946effef19637777",
+				"dweb:/ipfs/QmRgBJixc9h74VZLPQfBysMvrj9qmvSJKwWTvB5eSRacAz"
+			]
+		}
+	},
+	"version": 1
+}
