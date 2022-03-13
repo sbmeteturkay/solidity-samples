@@ -30,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/FirstContract.sol": "MyContract"
+			"FirstContract.sol": "MyContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -41,7 +41,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/FirstContract.sol": {
+		"FirstContract.sol": {
 			"keccak256": "0x6c89484cac23b20c57648f62be651e51540d3195d4ea943ee683fb781af29b3b",
 			"urls": [
 				"bzz-raw://210baaeacf9c91eff3f3cb52873f8f43047c825104e5bace67918d0aa24a7191",

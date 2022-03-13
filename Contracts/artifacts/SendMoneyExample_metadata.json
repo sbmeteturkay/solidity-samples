@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.11+commit.22be8592"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
@@ -38,6 +38,15 @@
 			{
 				"constant": false,
 				"inputs": [],
+				"name": "recevieMoney",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
 				"name": "withdrawMoney",
 				"outputs": [],
 				"payable": false,
@@ -63,15 +72,6 @@
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "recevieMoney",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -85,7 +85,7 @@
 		"compilationTarget": {
 			"Contracts/SendMoney.sol": "SendMoneyExample"
 		},
-		"evmVersion": "petersburg",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,

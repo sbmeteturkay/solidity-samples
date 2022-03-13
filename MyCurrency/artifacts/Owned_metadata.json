@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyCurrency/subcurrency.sol": "Owned"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyCurrency/subcurrency.sol": {
+			"keccak256": "0x45a92ceb607f520f8255ce77e4d3712b02cdd34039773f9dcf8956958da708d7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://8e056f58000a242b0d0b6b2f26994ffc149d3d494ffef1c99f770a4a448dba92",
+				"dweb:/ipfs/QmQECMSJwVuPjr8a5qZKEVauEKFyfhVZSormwVHeDtSbkh"
+			]
+		}
+	},
+	"version": 1
+}

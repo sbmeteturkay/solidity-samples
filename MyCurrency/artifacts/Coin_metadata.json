@@ -11,8 +11,45 @@
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "requested",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "available",
+						"type": "uint256"
+					}
+				],
+				"name": "insufficientBalance",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Sent",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -22,7 +59,7 @@
 						"type": "address"
 					}
 				],
-				"name": "balanceRecevied",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,54 +73,8 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_amountInWei",
-						"type": "uint256"
-					}
-				],
-				"name": "convertWeiToEther",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "destroySmartContract",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
 						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "recevieMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
+						"name": "_receiver",
 						"type": "address"
 					},
 					{
@@ -92,14 +83,54 @@
 						"type": "uint256"
 					}
 				],
-				"name": "withdrawMoney",
+				"name": "mint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [],
+				"name": "minter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setTotalSupply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -115,7 +146,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/FunctionExample.sol": "FunctionExample"
+			"MyCurrency/subcurrency.sol": "Coin"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -129,12 +160,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/FunctionExample.sol": {
-			"keccak256": "0xe3a341a48686de72e3a8ec3e8836fa781b53c8f9d3602b825e57c5f5a8e8b96e",
+		"MyCurrency/subcurrency.sol": {
+			"keccak256": "0x5d1a1f8b00fc71ad3a6b06c3a3905fc6766cdfc141e7450248cb81ffda76bba0",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://d3478d9eaac16188322a23fe59c39f9912a702fb8be9217f341911cbeed17cef",
-				"dweb:/ipfs/QmduoLvBC1EfrMcdFoqgf1p8hxUJ3YDVjQwqAyLV69qiBD"
+				"bzz-raw://e68376e4fa3b0fa7ed09b2caba9d2e8692cc22ec613fa75be5bdb0ebef6e0e68",
+				"dweb:/ipfs/QmPNvrJG1ykmZgUPmdZecgKSTegpbn3gKbqpz5UYCtzxL2"
 			]
 		}
 	},

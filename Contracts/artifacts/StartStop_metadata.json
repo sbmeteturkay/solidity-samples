@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.13+commit.5b0b510c"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
@@ -131,7 +131,7 @@
 		"compilationTarget": {
 			"Contracts/StartStopContract.sol": "StartStop"
 		},
-		"evmVersion": "petersburg",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"optimizer": {
 			"enabled": false,

@@ -8,7 +8,7 @@ contract Owned{
     }
 
     modifier onlyOwner(){
-        require(msg.sender == owner, "You are not allowed other file");
+        require(msg.sender == owner, "You are not allowed to do that");
         _;
     }
 }
