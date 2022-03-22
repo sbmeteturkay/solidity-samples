@@ -25,6 +25,7 @@ contract Coin{
     }
     function setTotalSupply(uint _amount)public onlyOwner{
         assert(_amount>totalSupply);
+        totalSupply=_amount;
     }
 
     error insufficientBalance(uint requested,uint available);

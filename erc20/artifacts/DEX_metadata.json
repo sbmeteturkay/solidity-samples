@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Bought",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Sold",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sell",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"erc20/dexContract.sol": "DEX"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"erc20/dexContract.sol": {
+			"keccak256": "0x39c4895ca0f4c14a0a8b05630847d8929739f86b29af8c7231ba5801c4ddd68a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://25db1ae507d5e02b491dc1c938a6494d14ff9ce58411c7fc6f13c6d7698e3e8e",
+				"dweb:/ipfs/QmX49p8jm99o8eBaKFwgJXbw2rWnXFBN2dSdon6s7LaKR2"
+			]
+		},
+		"erc20/tokenContract.sol": {
+			"keccak256": "0xb14137172570175963e4b3f7538613eec72a6831d7a3b826eded83d3c66366cc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://46d0553877b8e9739cd72059791f1a721c25a94740f3ec05479540bc87666618",
+				"dweb:/ipfs/QmXnjBSrEBXm6R9sWNyPQ2H7pJZuvPcZd8MoX7mxMT4ACR"
+			]
+		},
+		"erc20/tokenInterface.sol": {
+			"keccak256": "0x9a78fe47a0347075e6ab08fd32355e5f2086555f54899ff42a2cb85cc843eff5",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e0a656963470d3a9ddf63e88723c1d888d7b3e6f9f8c997033e5230b34fe8117",
+				"dweb:/ipfs/QmPuQvpmFnrn7ZvdXXmoK6fjDho7yHEYuHRaFnNA6gudRT"
+			]
+		}
+	},
+	"version": 1
+}

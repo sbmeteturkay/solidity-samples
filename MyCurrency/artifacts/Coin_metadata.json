@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -161,11 +161,11 @@
 	},
 	"sources": {
 		"MyCurrency/subcurrency.sol": {
-			"keccak256": "0x5d1a1f8b00fc71ad3a6b06c3a3905fc6766cdfc141e7450248cb81ffda76bba0",
+			"keccak256": "0x492f80bd230ff248f1a27241854438b91f517f1544a946b322aee66f8b4e2314",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://e68376e4fa3b0fa7ed09b2caba9d2e8692cc22ec613fa75be5bdb0ebef6e0e68",
-				"dweb:/ipfs/QmPNvrJG1ykmZgUPmdZecgKSTegpbn3gKbqpz5UYCtzxL2"
+				"bzz-raw://96e3304275c9a691c93c6a8846bdba8144fad8b325da3179e599a4e8c4474cce",
+				"dweb:/ipfs/QmNqZYQPqQKQG7eThqMxUKqUWrM5VA5kqgeEdgu5PdkJNU"
 			]
 		}
 	},
